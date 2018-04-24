@@ -1,6 +1,6 @@
 {
     "header" : "4-Band Resistor ohm value  calculator",
-    "subtitle" : "A usefull tool for reading resistor color code values",
+    "subtitle" : "A useful tool for reading resistor color code values",
     "bands": [
         {
             "bandLabel": "Band A Color",

@@ -16,3 +16,16 @@
     width: 49%;
     float: left;
 }
+
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .Ohminput-selection {
+        width: 100%;
+        float: left;
+        //min-width: 320px;
+    }
+    .Ohminput-image {
+        width: 100%;
+        float: left;
+    }
+}

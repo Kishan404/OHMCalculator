@@ -23,7 +23,7 @@ const OhmValue =(props) => {
             </div>
             <div className="resultrow">
                 <div className="resultlable"><label className="label">Maximum:</label></div>
-                <div className="value resultvalue"><label>{props.tolerance? (Math.round((props.resistance+Math.round(props.resistance * props.tolerance/100*100000)/100000)*100000)/100000).toLocaleString():(props.resistance && props.resistance.toLocaleString())}</label></div>                {/* <div><label className="resultvalue">{props.tolerance? (props.resistance+(props.resistance * props.tolerance/100)):props.resistance}</label></div> */}
+                <div className="value resultvalue"><label>{props.tolerance? (Math.round((props.resistance+Math.round(props.resistance * props.tolerance/100*100000)/100000)*100000)/100000).toLocaleString():(props.resistance && props.resistance.toLocaleString())}</label></div>
                 <div className="resultunits"><label >ohms</label></div>
             </div>
             

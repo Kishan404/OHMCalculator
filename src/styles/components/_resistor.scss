@@ -10,7 +10,7 @@
         width:20%;
         min-width: 20px;
         height: 5px;
-        padding: 5px 25px;
+        padding: 5px 20px;
         background: linear-gradient(gray, white, gray);
         color: silver;
         margin: 5px 0;
@@ -57,7 +57,7 @@
         width:20%;
         min-width: 20px;
         height: 5px;
-        padding: 5px 25px;
+        padding: 5px 20px;
         background: linear-gradient(gray, white, gray);
         color: silver;
         margin: 5px 0;
@@ -75,25 +75,25 @@
 
     .resistor-colorA {
         padding: 53px 10px;
-        left: 130px;
+        left: 125px;
     }
 
     
     .resistor-colorB {
         padding: 53px 10px;
-        left: 170px;
+        left: 165px;
     }
 
     .resistor-colorC {
         padding: 53px 10px;
-        left: 210px;
+        left: 205px;
     }
     
     .resistor-colorD {
         border: 0;
         padding: 63px 10px;
         background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
-        left: 285px;
+        left: 280px;
         top: -55px;
     }
     
@@ -169,5 +169,13 @@
     }
 
     
+}
+
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+
+    .resistor {
+        display: none;
+    }
 }
 
