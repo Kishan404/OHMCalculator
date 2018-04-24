@@ -3,7 +3,7 @@
     "subtitle" : "A usefull tool for reading resistor color code values",
     "bands": [
         {
-            "bandLabel": "Color Band A",
+            "bandLabel": "Band A Color",
             "bandType": "firstDigitColor",
             "colorOptions": {
                 "Brown": "1",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "bandLabel": "Color Band B",
+            "bandLabel": "Band B Color",
             "bandType": "secondDigitColor",
             "colorOptions": {
                 "Black": "0",
@@ -35,7 +35,7 @@
         },
         {
             
-            "bandLabel": "Color Band C",
+            "bandLabel": "Band C Color",
             "bandType": "multiplierColor",
             "colorOptions": {
                 "Pink":"0.001",
@@ -54,7 +54,7 @@
             }
         },
         {
-            "bandLabel": "Color Band D",
+            "bandLabel": "Band D Color",
             "bandType": "toleranceColor",
             "colorOptions": {
                 "Red":"2",

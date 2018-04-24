@@ -49,6 +49,6 @@ it('Resister color code test', () => {
 it('Resister color code test', () => {
   const obj = new OhmValueCalculator();
   let result = obj.calculateOhmValue('Red','Red');
-  expect(result.error).toBe("Insufficient input Input");
+  expect(result.error).toBe("Insufficient input");
 
 });

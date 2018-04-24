@@ -6,7 +6,6 @@ import OhmValue from '../OhmValue/OhmValue';
 import Header from '../Header/Header';
 import Resistor from '../Resistor/Resistor';
 
-
 class OhmValueApp extends Component {
     constructor(props) {
         super(props);
@@ -22,7 +21,6 @@ class OhmValueApp extends Component {
         let ohmcal = new OhmValueCalculator();
         
         let result = ohmcal.calculateOhmValue(...this.props.defaultcolorinputs);
-        console.log(result);
         this.setState(() => {
             return {
                 resistance: result.Ohm,

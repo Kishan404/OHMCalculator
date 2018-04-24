@@ -6,7 +6,6 @@ import OhmValueApp from './components/OhmValueApp/OhmValueApp';
 import {getHeader,getSubtitle,getbands,getDefaultcolorinputs} from './API/api';
 import registerServiceWorker from './registerServiceWorker';
 
-console.log(getDefaultcolorinputs());
 
 ReactDOM.render(<OhmValueApp 
                  bandsList = {getbands()}

@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-//import './OhmValue.css';
 
 const OhmValue =(props) => {
-    console.log((props.resistance-(props.resistance * props.tolerance)));
-    console.log((props.resistance * props.tolerance));
-    console.log(props.tolerance);
-    console.log(props.resistance);
 
     return (
         <div className="result">
+            <div className="result-error">{props.error}</div>
             <div className="resultrow">
                 <div className="resultlable"><label className="label">Resistance:</label></div>
                 <div className="value resultvalue"><label >{props.resistance && props.resistance.toLocaleString()}</label></div>

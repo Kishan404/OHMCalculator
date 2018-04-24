@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-//import './Header.css';
 import logo from '../../resources/resister.svg';
 
 const Header =(props) => {

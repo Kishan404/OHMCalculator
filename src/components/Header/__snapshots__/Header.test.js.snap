@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header result Snapshot test Should compare the component with a snapshot 1`] = `
+<div
+  className="header"
+>
+  <h1
+    className="header-title"
+  >
+    4-Band Resistor ohm value calculator
+  </h1>
+  <img
+    alt="logo"
+    className="header-logo"
+    src="resister.svg"
+  />
+  <p
+    className="header-subtitle"
+  >
+    A usefull tool for reading resistor color code values
+  </p>
+</div>
+`;

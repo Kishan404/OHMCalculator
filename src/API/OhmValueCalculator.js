@@ -23,7 +23,7 @@ class OhmValueCalculator {
             result.tolerance = +getBandDData()[bandDColor];
             result.error = isNaN(result.Ohm)? "Invalid Input":""; 
         } else {
-            result.error =  "Insufficient input Input";
+            result.error =  "Insufficient input";
         }
         return  result;
     } 

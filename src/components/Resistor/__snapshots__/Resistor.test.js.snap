@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resistor result Snapshot test Should compare the component with a snapshot 1`] = `
+<div
+  className="resistor"
+>
+  <span
+    className="wire-start"
+  />
+  <span
+    className="resitor-start"
+  />
+  <span
+    className="resitor-middle"
+  />
+  <span
+    className="resitor-end"
+  />
+  <span
+    className="wire-end"
+  />
+  <span
+    className="resistor-color resistor-colorA red"
+  />
+  <span
+    className="resistor-color resistor-colorB yellow"
+  />
+  <span
+    className="resistor-color resistor-colorC gray"
+  />
+  <span
+    className="resistor-color resistor-colorD none"
+  />
+</div>
+`;

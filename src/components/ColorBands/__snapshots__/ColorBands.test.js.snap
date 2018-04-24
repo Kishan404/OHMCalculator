@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Colorbands Snapshot test Should compare the component with a snapshot 1`] = `
+<div
+  className="colorbands"
+>
+  <div
+    className="colorband"
+  >
+    <label
+      className="label"
+      htmlFor="band0"
+    >
+      Color Band A
+    </label>
+    <select
+      className="colorselector brown"
+      id="band0"
+      onInput={[Function]}
+    >
+      <option
+        className="coloroption brown"
+        value="Brown"
+      >
+        Brown
+      </option>
+      <option
+        className="coloroption red"
+        value="Red"
+      >
+        Red
+      </option>
+      <option
+        className="coloroption orange"
+        value="Orange"
+      >
+        Orange
+      </option>
+      <option
+        className="coloroption yellow"
+        value="Yellow"
+      >
+        Yellow
+      </option>
+      <option
+        className="coloroption green"
+        value="Green"
+      >
+        Green
+      </option>
+      <option
+        className="coloroption blue"
+        value="Blue"
+      >
+        Blue
+      </option>
+      <option
+        className="coloroption violet"
+        value="Violet"
+      >
+        Violet
+      </option>
+      <option
+        className="coloroption gray"
+        value="Gray"
+      >
+        Gray
+      </option>
+      <option
+        className="coloroption white"
+        value="White"
+      >
+        White
+      </option>
+    </select>
+  </div>
+</div>
+`;

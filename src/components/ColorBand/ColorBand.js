@@ -15,8 +15,6 @@ class ColorBand extends Component {
       let pickedcolor = e.target.value;
       this.props.handleColorPick(pickedcolor,this.props.bandIndex);
       this.setState(()=>({selectedcolor:pickedcolor.toLowerCase()}))
-      console.log('bandIndex:'+this.props.bandIndex);
-      console.log('pickedcolor:'+pickedcolor);
      
 
     }
