@@ -1,0 +1,79 @@
+
+@import './label.scss';
+
+.colorband {
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+.colorselector {
+    width: 150px;
+    height: $l-size;
+    //background-color: white;
+}
+.coloroption {
+    padding: 0;
+}
+
+.black {
+ background-color: black;
+ color: white;
+}
+
+.none {
+    background-color: transparent;
+    color: black;
+   }
+.pink {
+    background-color:pink;
+    color: black;
+   }
+.silver {
+    background-color: silver;
+    color: black;
+   } 
+.gold {
+    background-color:gold;
+    color: black;
+   } 
+.black {
+    background-color: black;
+    color: white;
+   }
+.brown {
+    background-color:brown;
+    color: white;
+   } 
+.red {
+    background-color: red;
+    color: white;
+   } 
+.orange {
+    background-color:orange;
+    color: black;
+} 
+.yellow {
+    background-color: yellow;
+    color: black;
+} 
+.green {
+    background-color: green;
+    color: white;
+} 
+.blue {
+    background-color: blue;
+    color: white;
+} 
+.violet {
+    background-color: violet;
+    color: white;
+} 
+.gray {
+    background-color: gray;
+    color: white;
+} 
+.white {
+    background-color: white;
+    color: black;
+}
+

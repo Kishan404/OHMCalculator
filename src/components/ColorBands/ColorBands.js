@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 const ColorBands =(props) => {
     return (
-        <div>
+        <div className="colorbands">
             {props.bandsList.map((band,key)=>{
                 return <ColorBand 
                             key ={key}
-                            bandType = {band.bandType}
+                            bandIndex = {key}
                             bandLabel = {band.bandLabel} 
                             bandOptions = {Object.keys(band.colorOptions)}
                             handleColorPick = {props.handleColorPick} 
@@ -22,5 +22,3 @@ ColorBands.propTypes = {
     handleColorPick : PropTypes.func
 }
 export default ColorBands;
-
-

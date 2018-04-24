@@ -1,5 +1,286 @@
+html {
+  font-size: 62.5%;
+  cursor: default; }
+
 body {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.6rem;
+  color: #333;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+  padding: 0; }
+
+.header {
+  background: #e5e5e5;
+  padding: 20px;
+  position: relative; }
+  .header .header-title {
+    font-size: 3.2rem;
+    margin: 0 auto;
+    max-width: 60rem; }
+  .header .header-logo {
+    animation: header-logo-spin infinite 20s linear;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 25px; }
+  .header .header-subtitle {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    max-width: 60rem; }
+
+@keyframes header-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.label {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 5px;
+  margin-right: 20px; }
+
+.colorband {
+  max-width: 320px;
+  margin: 10px auto; }
+
+.colorselector {
+  width: 150px;
+  height: 3.2rem; }
+
+.coloroption {
+  padding: 0; }
+
+.black {
+  background-color: black;
+  color: white; }
+
+.none {
+  background-color: transparent;
+  color: black; }
+
+.pink {
+  background-color: pink;
+  color: black; }
+
+.silver {
+  background-color: silver;
+  color: black; }
+
+.gold {
+  background-color: gold;
+  color: black; }
+
+.black {
+  background-color: black;
+  color: white; }
+
+.brown {
+  background-color: brown;
+  color: white; }
+
+.red {
+  background-color: red;
+  color: white; }
+
+.orange {
+  background-color: orange;
+  color: black; }
+
+.yellow {
+  background-color: yellow;
+  color: black; }
+
+.green {
+  background-color: green;
+  color: white; }
+
+.blue {
+  background-color: blue;
+  color: white; }
+
+.violet {
+  background-color: violet;
+  color: white; }
+
+.gray {
+  background-color: gray;
+  color: white; }
+
+.white {
+  background-color: white;
+  color: black; }
+
+.resultlable {
+  display: inline-block;
+  width: 20%;
+  padding: 5px 10px; }
+
+.resultvalue {
+  display: inline-block;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  min-width: 150px;
+  padding: 5px;
+  width: 50%; }
+
+.resultunits {
+  display: inline-block;
+  width: 20%;
+  padding-left: 10px; }
+
+.resultrow {
+  max-width: 80rem;
+  width: 100%;
+  margin: 10px auto; }
+
+.result {
+  display: block;
+  max-width: 90rem;
+  margin: 50px  auto 50px; }
+
+.Ohminput {
+  width: 100%;
+  height: 200px;
+  max-width: 90rem;
+  margin: auto;
+  margin-top: 30px; }
+
+.Ohminput-selection {
+  width: 49%;
+  float: left; }
+
+.Ohminput-image {
+  width: 49%;
+  float: left; }
+
+.resistor {
+  width: 100%;
+  position: relative;
+  min-width: 100px;
+  margin: 75px 0;
+  height: 100px; }
+  .resistor .wire-start {
+    width: 20%;
+    min-width: 20px;
+    height: 5px;
+    padding: 5px 25px;
+    background: linear-gradient(gray, white, gray);
+    color: silver;
+    margin: 5px 0; }
+  .resistor .resitor-start {
+    width: 20%;
+    height: 5px;
+    border-radius: 5px;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 55px 40px;
+    background: linear-gradient(#fecb6e, wheat, #fecb6e);
+    color: #fecb6e;
+    margin: 5px 0; }
+  .resistor .resitor-middle {
+    width: 20%;
+    min-width: 20px;
+    height: 5px;
+    padding: 45px 70px;
+    background: linear-gradient(#fecb6e, wheat, #fecb6e);
+    color: #fecb6e;
+    margin: 5px -5px; }
+  .resistor .resitor-end {
+    width: 20%;
+    height: 5px;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 55px 40px;
+    background: linear-gradient(#fecb6e, wheat, #fecb6e);
+    color: #fecb6e;
+    margin: 5px 0; }
+  .resistor .wire-end {
+    width: 20%;
+    min-width: 20px;
+    height: 5px;
+    padding: 5px 25px;
+    background: linear-gradient(gray, white, gray);
+    color: silver;
+    margin: 5px 0; }
+  .resistor .resistor-color {
+    position: absolute;
+    border: 1px solid #fecb6e;
+    background: linear-gradient(#fecb6e, wheat, #fecb6e);
+    color: #fecb6e;
+    margin: 0;
+    top: -45px; }
+  .resistor .resistor-colorA {
+    padding: 53px 10px;
+    left: 130px; }
+  .resistor .resistor-colorB {
+    padding: 53px 10px;
+    left: 170px; }
+  .resistor .resistor-colorC {
+    padding: 53px 10px;
+    left: 210px; }
+  .resistor .resistor-colorD {
+    border: 0;
+    padding: 63px 10px;
+    background: linear-gradient(#fecb6e, wheat, #fecb6e);
+    left: 285px;
+    top: -55px; }
+  .resistor .none {
+    background: linear-gradient(#fecb6e, wheat, #fecb6e);
+    color: #fecb6e; }
+  .resistor .pink {
+    background: pink;
+    color: pink;
+    border: 1px solid pink; }
+  .resistor .silver {
+    background: silver;
+    color: silver;
+    border: 1px solid silver; }
+  .resistor .gold {
+    background: gold;
+    color: gold;
+    border: 1px solid gold; }
+  .resistor .black {
+    background: black;
+    color: black;
+    border: 1px solid black; }
+  .resistor .brown {
+    background: brown;
+    color: brown;
+    border: 1px solid brown; }
+  .resistor .red {
+    background: red;
+    color: red;
+    border: 1px solid red; }
+  .resistor .orange {
+    background: orange;
+    color: orange;
+    border: 1px solid orange; }
+  .resistor .yellow {
+    background: yellow;
+    color: yellow;
+    border: 1px solid yellow; }
+  .resistor .green {
+    background: green;
+    color: green;
+    border: 1px solid green; }
+  .resistor .blue {
+    background: blue;
+    color: blue;
+    border: 1px solid blue; }
+  .resistor .violet {
+    background: violet;
+    color: violet;
+    border: 1px solid violet; }
+  .resistor .gray {
+    background: gray;
+    color: gray;
+    border: 1px solid gray; }
+  .resistor .white {
+    background: white;
+    color: white;
+    border: 1px solid white; }

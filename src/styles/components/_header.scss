@@ -1,0 +1,43 @@
+
+.header {
+    background: $header-bg-color;
+
+    //margin: 0;
+    padding: 20px;
+    position: relative;
+
+    .header-title {
+        font-size: $l-size;
+        margin: 0 auto;
+        max-width: 60rem;
+    }
+
+    .header-logo {
+        animation: header-logo-spin infinite 20s linear;
+        height: 50px;
+        position: absolute;
+        top: 25px;
+        right:25px;
+    }
+
+    .header-subtitle {
+        font-size: $s-size;
+        margin: 0 auto;
+        max-width: 60rem;
+    }
+
+    @keyframes header-logo-spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+}
+
+
+  
+  
+
+  
+  
+  
+  
+  

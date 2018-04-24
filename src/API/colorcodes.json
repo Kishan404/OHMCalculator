@@ -1,12 +1,11 @@
 {
-    "header" : "Resistor Color Code Calculator",
+    "header" : "4-Band Resistor ohm value  calculator",
     "subtitle" : "A usefull tool for reading resistor color code values",
     "bands": [
         {
-            "bandLabel": "BandA",
+            "bandLabel": "Color Band A",
             "bandType": "firstDigitColor",
             "colorOptions": {
-                "Black": "0",
                 "Brown": "1",
                 "Red": "2",
                 "Orange": "3",
@@ -19,7 +18,7 @@
             }
         },
         {
-            "bandLabel": "BandB",
+            "bandLabel": "Color Band B",
             "bandType": "secondDigitColor",
             "colorOptions": {
                 "Black": "0",
@@ -36,7 +35,7 @@
         },
         {
             
-            "bandLabel": "BandC",
+            "bandLabel": "Color Band C",
             "bandType": "multiplierColor",
             "colorOptions": {
                 "Pink":"0.001",
@@ -55,23 +54,23 @@
             }
         },
         {
-            "bandLabel": "BandD",
+            "bandLabel": "Color Band D",
             "bandType": "toleranceColor",
             "colorOptions": {
-                "None":"20",
-                "Pink":"0",
+                "Red":"2",
                 "Silver":"10",
                 "Gold":"5",
                 "Black":"0",
                 "Brown":"1",
-                "Red":"2",
                 "Orange":"0",
                 "Yellow":"5",
                 "Green":"0.5",
                 "Blue":"0.25",
                 "Violet":"0.1",
                 "Gray":"0.05",
-                "White":"0"
+                "White":"0",
+                "Pink":"0",
+                "None":"20"
             }
         }
     ]

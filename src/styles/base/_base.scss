@@ -1,0 +1,15 @@
+
+$fontcolor : #333;
+
+html {
+    font-size: 62.5%;
+    cursor: default;
+}
+
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: $s-size;
+    color: $fontcolor;
+    margin: 0;
+    padding: 0;
+}

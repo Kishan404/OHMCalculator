@@ -1,0 +1,173 @@
+
+.resistor {
+    width: 100%;
+    position: relative;
+    min-width: 100px;
+    margin: 75px 0;
+    height: 100px;
+
+    .wire-start {
+        width:20%;
+        min-width: 20px;
+        height: 5px;
+        padding: 5px 25px;
+        background: linear-gradient(gray, white, gray);
+        color: silver;
+        margin: 5px 0;
+    }
+    .resitor-start {
+        width:20%;
+
+        height: 5px;
+        border-radius: 5px;
+        border-bottom-left-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        padding: 55px 40px;
+        background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
+        color: $resitor-color;
+        margin: 5px 0;
+
+    }
+    .resitor-middle {
+        width: 20%;
+        min-width: 20px;
+        height: 5px;
+        padding: 45px 70px;
+        background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
+        color: $resitor-color;
+        margin: 5px -5px;
+
+    }
+    .resitor-end {
+        width:20%;
+        height: 5px;
+        border-bottom-right-radius: 35px;
+        border-top-right-radius: 35px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding: 55px 40px;
+        background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
+        color: $resitor-color;
+        margin: 5px 0;
+
+    }
+    .wire-end {
+        width:20%;
+        min-width: 20px;
+        height: 5px;
+        padding: 5px 25px;
+        background: linear-gradient(gray, white, gray);
+        color: silver;
+        margin: 5px 0;
+    }
+
+    .resistor-color {
+        position: absolute;
+        border: 1px solid $resitor-color;
+        background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
+        color: $resitor-color;
+        margin: 0;
+        top: -45px;
+    }
+
+
+    .resistor-colorA {
+        padding: 53px 10px;
+        left: 130px;
+    }
+
+    
+    .resistor-colorB {
+        padding: 53px 10px;
+        left: 170px;
+    }
+
+    .resistor-colorC {
+        padding: 53px 10px;
+        left: 210px;
+    }
+    
+    .resistor-colorD {
+        border: 0;
+        padding: 63px 10px;
+        background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
+        left: 285px;
+        top: -55px;
+    }
+    
+        
+    .none {
+        background: linear-gradient($resitor-color-out, $resitor-color-in, $resitor-color-out);
+        color: $resitor-color;
+    }
+    .pink {
+        background:pink;
+        color: pink;
+        border: 1px solid pink;
+    }
+    .silver {
+        background: silver;
+        color: silver;
+        border: 1px solid silver;
+    } 
+    .gold {
+        background:gold;
+        color: gold;
+        border: 1px solid gold;
+    } 
+    .black {
+        background: black;
+        color: black;
+        border: 1px solid black;
+    }
+    .brown {
+        background:brown;
+        color: brown;
+        border: 1px solid brown;
+    } 
+    .red {
+        background: red;
+        color: red;
+        border: 1px solid red;
+    } 
+    .orange {
+        background:orange;
+        color: orange;
+        border: 1px solid orange;
+    } 
+    .yellow {
+        background: yellow;
+        color: yellow;
+        border: 1px solid yellow;
+    } 
+    .green {
+        background: green;
+        color: green;
+        border: 1px solid green;
+    } 
+    .blue {
+        background: blue;
+        color: blue;
+        border: 1px solid blue;
+    } 
+    .violet {
+        background: violet;
+        color: violet;
+        border: 1px solid violet;
+    } 
+    .gray {
+        background: gray;
+        color: gray;
+        border: 1px solid gray;
+    } 
+    .white {
+        background: white;
+        color: white;
+        border: 1px solid white;
+    }
+
+    
+}
+
