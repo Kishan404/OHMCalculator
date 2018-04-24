@@ -2,7 +2,7 @@
 
 ## Instructions to run the code.
 
-In the project directory,
+Open terminal and go to the project directory,
 
 ## npm install
 
