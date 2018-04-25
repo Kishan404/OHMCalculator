@@ -177,9 +177,9 @@
         width: auto;
         position: relative;
         min-width: 100px;
-        margin: 45px 0 -25px;
+        margin: 45px 10% -25px;
         height: 100px;
-        padding: 0 8%;
+        //padding: 0 8%;
     
         .wire-start {
             width:20%;
@@ -237,24 +237,24 @@
     
         .resistor-colorA {
             padding: 36px 7px;
-            left: 105px;
+            left: 80px;
         }
     
         
         .resistor-colorB {
             padding: 36px 7px;
-            left: 130px;
+            left: 110px;
         }
     
         .resistor-colorC {
             padding: 36px 7px;
-            left: 155px;
+            left: 140px;
         }
         
         .resistor-colorD {
             border: 0;
             padding: 45px 7px;
-            left: 215px;
+            left: 190px;
             top: -39px;
             border-radius: 1px;
         }
