@@ -173,9 +173,95 @@
 
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
-
     .resistor {
-        display: none;
+        width: auto;
+        position: relative;
+        min-width: 100px;
+        margin: 45px 0 -25px;
+        height: 100px;
+        padding: 0 8%;
+    
+        .wire-start {
+            width:20%;
+            min-width: 10px;
+            height: 5px;
+            padding: 5px 10px;
+            margin: 5px 0;
+        }
+        .resitor-start {
+            width:20%;
+    
+            height: 5px;
+            border-radius: 5px;
+            border-bottom-left-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 38px 30px;
+            margin: 5px 0;
+    
+        }
+        .resitor-middle {
+            width: 20%;
+            min-width: 20px;
+            height: 5px;
+            padding: 30px 50px;
+            margin: 5px -5px;
+    
+        }
+        .resitor-end {
+            width:20%;
+            height: 5px;
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding: 38px 30px;
+            margin: 5px 0;
+    
+        }
+        .wire-end {
+            width:20%;
+            min-width: 10px;
+            height: 5px;
+            padding: 5px 10px;
+            margin: 5px 0;
+        }
+    
+        .resistor-color {
+            position: absolute;
+            margin: 0;
+            top: -31px;
+        }
+    
+    
+        .resistor-colorA {
+            padding: 36px 7px;
+            left: 105px;
+        }
+    
+        
+        .resistor-colorB {
+            padding: 36px 7px;
+            left: 130px;
+        }
+    
+        .resistor-colorC {
+            padding: 36px 7px;
+            left: 155px;
+        }
+        
+        .resistor-colorD {
+            border: 0;
+            padding: 45px 7px;
+            left: 215px;
+            top: -39px;
+            border-radius: 1px;
+        }
+
+                
+
+
     }
 }
 

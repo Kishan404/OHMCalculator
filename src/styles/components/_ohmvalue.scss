@@ -1,66 +1,67 @@
-
-.resultlable {
-    display:inline-block;
-    width: 20%;
-   
-
-    padding: 5px 10px;
-}
-.resultvalue {
-    display: inline-block;
-    border: 1px solid lightblue;
-    border-radius: 5px;
-    min-width: 150px;
-    padding: 5px;
-    width: 50%;
-
-}
-.resultunits {
-    display: inline-block;
-    width: 20%;
-    padding-left: 10px;
-}
-
-.resultrow {
-    max-width: 80rem;
-    width: 100%;
-    margin: 10px auto;
-}
-
 .result {
     display: block;
     max-width: 90rem;
-    //width: 600px;
     margin: 50px  auto 50px;
+
+    .result-error {
+        color: red;
+        font-weight: bold;
+        margin: 10px auto;
+        max-width: 44rem;
+    }
+
+    .resultrow {
+        max-width: 80rem;
+        width: 100%;
+        margin: 10px auto;
+
+        .resultlable {
+            display:inline-block;
+            width: 20%;
+            padding: 5px 10px;
+        }
+        .resultvalue {
+            display: inline-block;
+            border: 1px solid lightblue;
+            border-radius: 5px;
+            min-width: 150px;
+            padding: 5px;
+            width: 50%;
+        
+        }
+        .resultunits {
+            display: inline-block;
+            width: 20%;
+            padding-left: 10px;
+        }
+        
+    }
 }
-.result-error {
-    color: red;
-    font-weight: bold;
-    margin: 10px auto;
-    max-width: 44rem;
-}
+
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
-    .resultvalue {
-        display: inline-block;
-        border: 1px solid lightblue;
-        border-radius: 5px;
-        min-width: 150px;
-        padding: 5px;
-        width: 50%;
-        margin-left: 15px;
-    
-    }
-    .resultunits {
-        padding-left: 0;
-        margin-top:10px;
-    }
 
-    .resultunits {
-        width: 10%;
-        padding-left: 10px;
-    }
     .result {
         margin: 10px auto;
+        .resultrow {
+
+            .resultvalue {
+                display: inline-block;
+                border: 1px solid lightblue;
+                border-radius: 5px;
+                min-width: 150px;
+                padding: 5px;
+                width: 50%;
+                margin-left: 15px;
+            
+            }
+            .resultunits {
+                width: 10%;
+                padding-left: 10px;
+                margin-top:10px;
+        
+            }
+        }
+    
     }
 }

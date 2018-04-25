@@ -5,27 +5,31 @@
     max-width: 90rem;
     margin: auto;
     margin-top: 30px;
-}
 
-.Ohminput-selection {
-    width: 49%;
-    float: left;
-    //min-width: 320px;
-}
-.Ohminput-image {
-    width: 49%;
-    float: left;
-}
-
-
-@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
     .Ohminput-selection {
-        width: 100%;
+        width: 50%;
         float: left;
         //min-width: 320px;
     }
     .Ohminput-image {
-        width: 100%;
+        width: 50%;
         float: left;
+    }
+
+}
+
+@media only screen  and (max-width: 1023px) and (max-device-width: 736px) {
+    .Ohminput {
+        margin-top: 10px;
+
+        .Ohminput-selection {
+            width: 100%;
+            float: left;
+            //min-width: 320px;
+        }
+        .Ohminput-image {
+            width: 100%;
+            float: left;
+        }
     }
 }
