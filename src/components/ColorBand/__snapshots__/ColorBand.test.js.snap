@@ -11,21 +11,21 @@ exports[`Colorband Snapshot test Should compare the component with a snapshot 1`
     Band A
   </label>
   <select
-    className="colorselector gray"
+    className="colorselector g"
     id="band0"
     onInput={[Function]}
   >
     <option
-      className="coloroption gray"
-      value="gray"
+      className="coloroption g"
+      value="g"
     >
-      gray
+      g  (r)
     </option>
     <option
-      className="coloroption brown"
-      value="Brown"
+      className="coloroption b"
+      value="B"
     >
-      Brown
+      B  (r)
     </option>
   </select>
 </div>

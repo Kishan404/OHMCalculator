@@ -22,55 +22,55 @@ exports[`Colorbands Snapshot test Should compare the component with a snapshot 1
         className="coloroption brown"
         value="Brown"
       >
-        Brown
+        Brown  (1)
       </option>
       <option
         className="coloroption red"
         value="Red"
       >
-        Red
+        Red  (2)
       </option>
       <option
         className="coloroption orange"
         value="Orange"
       >
-        Orange
+        Orange  (3)
       </option>
       <option
         className="coloroption yellow"
         value="Yellow"
       >
-        Yellow
+        Yellow  (4)
       </option>
       <option
         className="coloroption green"
         value="Green"
       >
-        Green
+        Green  (5)
       </option>
       <option
         className="coloroption blue"
         value="Blue"
       >
-        Blue
+        Blue  (6)
       </option>
       <option
         className="coloroption violet"
         value="Violet"
       >
-        Violet
+        Violet  (7)
       </option>
       <option
         className="coloroption gray"
         value="Gray"
       >
-        Gray
+        Gray  (8)
       </option>
       <option
         className="coloroption white"
         value="White"
       >
-        White
+        White  (9)
       </option>
     </select>
   </div>

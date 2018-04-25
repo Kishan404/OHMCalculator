@@ -14,7 +14,6 @@ class OhmValueCalculator {
      */
     calculateOhmValue(bandAColor,bandBColor,bandCColor,bandDColor) {
         let result = {};
-
         if(bandAColor && bandBColor && bandCColor) {
             let significantDigits = +((getBandAData()[bandAColor])+(getBandBData()[bandBColor]));
             let multiplierValue =  getBandCData()[bandCColor];
