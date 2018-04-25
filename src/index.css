@@ -9,6 +9,10 @@ body {
   margin: 0;
   padding: 0; }
 
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+  body {
+    font-size: 1.2rem; } }
+
 .header {
   background: #e5e5e5;
   padding: 20px;
@@ -35,16 +39,24 @@ body {
     transform: rotate(360deg); } }
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
-  .header-logo {
-    display: none; }
-  .header-title {
-    font-size: 2rem; } }
+  .header {
+    padding: 10px; }
+    .header .header-logo {
+      display: none; }
+    .header .header-title {
+      font-size: 2rem; }
+    .header .header-subtitle {
+      font-size: 1.2rem; } }
 
 .label {
   font-size: 1.6rem;
   font-weight: bold;
   padding: 0 5px;
   margin-right: 20px; }
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+  .label {
+    font-size: 1.2rem; } }
 
 .colorband {
   max-width: 320px;
@@ -123,57 +135,50 @@ body {
     padding-left: 5%;
     padding-right: 5%; } }
 
-.resultlable {
-  display: inline-block;
-  width: 20%;
-  padding: 5px 10px; }
-
-.resultvalue {
-  display: inline-block;
-  border: 1px solid lightblue;
-  border-radius: 5px;
-  min-width: 150px;
-  padding: 5px;
-  width: 50%; }
-
-.resultunits {
-  display: inline-block;
-  width: 20%;
-  padding-left: 10px; }
-
-.resultrow {
-  max-width: 80rem;
-  width: 100%;
-  margin: 10px auto; }
-
 .result {
   display: block;
   max-width: 90rem;
   margin: 50px  auto 50px; }
-
-.result-error {
-  color: red;
-  font-weight: bold;
-  margin: 10px auto;
-  max-width: 44rem; }
+  .result .result-error {
+    color: red;
+    font-weight: bold;
+    margin: 10px auto;
+    max-width: 44rem; }
+  .result .resultrow {
+    max-width: 80rem;
+    width: 100%;
+    margin: 10px auto; }
+    .result .resultrow .resultlable {
+      display: inline-block;
+      width: 20%;
+      padding: 5px 10px; }
+    .result .resultrow .resultvalue {
+      display: inline-block;
+      border: 1px solid lightblue;
+      border-radius: 5px;
+      min-width: 150px;
+      padding: 5px;
+      width: 50%; }
+    .result .resultrow .resultunits {
+      display: inline-block;
+      width: 20%;
+      padding-left: 10px; }
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
-  .resultvalue {
-    display: inline-block;
-    border: 1px solid lightblue;
-    border-radius: 5px;
-    min-width: 150px;
-    padding: 5px;
-    width: 50%;
-    margin-left: 15px; }
-  .resultunits {
-    padding-left: 0;
-    margin-top: 10px; }
-  .resultunits {
-    width: 10%;
-    padding-left: 10px; }
   .result {
-    margin: 10px auto; } }
+    margin: 10px auto; }
+    .result .resultrow .resultvalue {
+      display: inline-block;
+      border: 1px solid lightblue;
+      border-radius: 5px;
+      min-width: 150px;
+      padding: 5px;
+      width: 50%;
+      margin-left: 15px; }
+    .result .resultrow .resultunits {
+      width: 10%;
+      padding-left: 10px;
+      margin-top: 10px; } }
 
 .Ohminput {
   width: 100%;
@@ -181,22 +186,22 @@ body {
   max-width: 90rem;
   margin: auto;
   margin-top: 30px; }
-
-.Ohminput-selection {
-  width: 49%;
-  float: left; }
-
-.Ohminput-image {
-  width: 49%;
-  float: left; }
+  .Ohminput .Ohminput-selection {
+    width: 50%;
+    float: left; }
+  .Ohminput .Ohminput-image {
+    width: 50%;
+    float: left; }
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
-  .Ohminput-selection {
-    width: 100%;
-    float: left; }
-  .Ohminput-image {
-    width: 100%;
-    float: left; } }
+  .Ohminput {
+    margin-top: 10px; }
+    .Ohminput .Ohminput-selection {
+      width: 100%;
+      float: left; }
+    .Ohminput .Ohminput-image {
+      width: 100%;
+      float: left; } }
 
 .resistor {
   width: 100%;
@@ -260,13 +265,13 @@ body {
     top: -45px; }
   .resistor .resistor-colorA {
     padding: 53px 10px;
-    left: 125px; }
+    left: 120px; }
   .resistor .resistor-colorB {
     padding: 53px 10px;
-    left: 165px; }
+    left: 160px; }
   .resistor .resistor-colorC {
     padding: 53px 10px;
-    left: 205px; }
+    left: 200px; }
   .resistor .resistor-colorD {
     border: 0;
     padding: 63px 10px;
@@ -331,4 +336,65 @@ body {
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
   .resistor {
-    display: none; } }
+    width: auto;
+    position: relative;
+    min-width: 100px;
+    margin: 45px 0 -25px;
+    height: 100px;
+    padding: 0 8%; }
+    .resistor .wire-start {
+      width: 20%;
+      min-width: 10px;
+      height: 5px;
+      padding: 5px 10px;
+      margin: 5px 0; }
+    .resistor .resitor-start {
+      width: 20%;
+      height: 5px;
+      border-radius: 5px;
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 38px 30px;
+      margin: 5px 0; }
+    .resistor .resitor-middle {
+      width: 20%;
+      min-width: 20px;
+      height: 5px;
+      padding: 30px 50px;
+      margin: 5px -5px; }
+    .resistor .resitor-end {
+      width: 20%;
+      height: 5px;
+      border-bottom-right-radius: 30px;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding: 38px 30px;
+      margin: 5px 0; }
+    .resistor .wire-end {
+      width: 20%;
+      min-width: 10px;
+      height: 5px;
+      padding: 5px 10px;
+      margin: 5px 0; }
+    .resistor .resistor-color {
+      position: absolute;
+      margin: 0;
+      top: -31px; }
+    .resistor .resistor-colorA {
+      padding: 36px 7px;
+      left: 105px; }
+    .resistor .resistor-colorB {
+      padding: 36px 7px;
+      left: 130px; }
+    .resistor .resistor-colorC {
+      padding: 36px 7px;
+      left: 155px; }
+    .resistor .resistor-colorD {
+      border: 0;
+      padding: 45px 7px;
+      left: 215px;
+      top: -39px;
+      border-radius: 1px; } }

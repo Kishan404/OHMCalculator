@@ -34,11 +34,17 @@
 
 
 @media only screen and (max-width: 1023px) and (max-device-width: 736px) {
-    .header-logo {
-        display: none;
-    }
-    .header-title {
-        font-size: $m-size;
+    .header {
+        padding: 10px;
+        .header-logo {
+            display: none;
+        }
+        .header-title {
+            font-size: $m-size;
+        }
+        .header-subtitle {
+            font-size: $vs-size;
+        }
     }
 }
 
