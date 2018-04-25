@@ -10,7 +10,7 @@ const ColorBands =(props) => {
                             key ={key}
                             bandIndex = {key}
                             bandLabel = {band.bandLabel} 
-                            bandOptions = {Object.keys(band.colorOptions)}
+                            bandOptions = {Object.entries(band.colorOptions)}
                             handleColorPick = {props.handleColorPick} 
                         />
             })}

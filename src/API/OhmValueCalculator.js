@@ -14,17 +14,22 @@ class OhmValueCalculator {
      */
     calculateOhmValue(bandAColor,bandBColor,bandCColor,bandDColor) {
         let result = {};
+        try {
+            if(bandAColor && bandBColor && bandCColor) {
+                let significantDigits = +((getBandAData()[bandAColor])+(getBandBData()[bandBColor]));
+                let multiplierValue =  getBandCData()[bandCColor];
+                result.Ohm = Math.round(significantDigits *  multiplierValue * 1000)/1000;
+                //result.tolerance = result.Ohm !== 0 ? +getBandDData()[bandDColor]: 0;
+                result.tolerance = +getBandDData()[bandDColor];
+                result.error = isNaN(result.Ohm)? "Invalid Input":""; 
+            } else {
+                result.error =  "Insufficient input";
+            }
 
-        if(bandAColor && bandBColor && bandCColor) {
-            let significantDigits = +((getBandAData()[bandAColor])+(getBandBData()[bandBColor]));
-            let multiplierValue =  getBandCData()[bandCColor];
-            result.Ohm = Math.round(significantDigits *  multiplierValue * 1000)/1000;
-            //result.tolerance = result.Ohm !== 0 ? +getBandDData()[bandDColor]: 0;
-            result.tolerance = +getBandDData()[bandDColor];
-            result.error = isNaN(result.Ohm)? "Invalid Input":""; 
-        } else {
-            result.error =  "Insufficient input";
+        } catch(e){
+            result.error = e.message;
         }
+        
         return  result;
     } 
 }
